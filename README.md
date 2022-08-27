@@ -4,8 +4,8 @@ Gas temperature predictor for protoplanetary discs. Developed through the 2022 U
 Developed by Jason Zheng, mentored by Maria Han Veiga and Arthur Bosman. Special thanks to the University of Michigan Mathematics Department for making this project possible.
 
 Contact:
-jkzheng@umich.edu, https://www.linkedin.com/in/jason-zheng-30915b192/
-mhanveig@umich.edu
+jkzheng@umich.edu, https://www.linkedin.com/in/jason-zheng-30915b192/,
+mhanveig@umich.edu,
 arbos@umich.edu
 
 August 2022
