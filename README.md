@@ -11,4 +11,7 @@ arbos@umich.edu
 August 2022
 
 Usage instructions: 
-Adjust hyperparameters and file/output settings in "hyperparameters.py". Toggle hyperparameters.saveModel = True to save the final selected model. Email jkzheng@umich.edu for support.
+You will need to create a "out.txt" and a "model.pth" file in your directory before running the program.
+Adjust hyperparameters and file/output settings in "hyperparameters.py". Toggle hyperparameters.saveModel = True to save the final selected model.
+
+Email jkzheng@umich.edu for support.
