@@ -106,10 +106,8 @@ def testModel(net, testData, testLabels, twoDScaler, trainingLabelsMean, trainin
 
 	#COMPUTE METRICS
 	computed = computed * trainingLabelsStdev + trainingLabelsMean
-	#mse = nn.MSELoss()
-	#loss = mse(computed, testLabels)
-	r2 = tm.R2Score()
-	loss = r2(computed, testLabels)
+	mse = nn.MSELoss()
+	loss = mse(computed, testLabels)
 
 	#OUTPUT
 	if hparams.tgas_actual_predicted:

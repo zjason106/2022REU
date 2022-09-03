@@ -23,8 +23,8 @@ features = df.columns
 #DATA SETUP
 testData = torch.tensor(df.iloc[1000000:1080000,:].values)
 testLabels = labels[1000000:1080000]
-valData = torch.tensor(df.iloc[:10000,:].values)
-valLabels = labels[:10000]
+valData = torch.tensor(df.iloc[:200000,:].values)
+valLabels = labels[:200000]
 trainingData = torch.tensor(df.iloc[200000:200000 + int(hparams.proportionTrainingDatasetUsed * 800000),:].values)
 trainingLabels = labels[200000:200000 + int(hparams.proportionTrainingDatasetUsed * 800000)]
 

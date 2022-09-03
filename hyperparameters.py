@@ -1,5 +1,5 @@
 #HYPERPARAMETERS
-numEpochs = 20
+numEpochs = 200
 batchSize = 10000
 learningRate = 0.002
 
@@ -14,7 +14,7 @@ datasetFile = "tgas_constrained.pkl"
 
 #NETWORK SETTINGS
 crossVal = True
-proportionTrainingDatasetUsed = 0.1
+proportionTrainingDatasetUsed = 1.0
 
 #OUTPUT SETTINGS
 epochTrainingLoss = False #MSE loss on training data after each epoch. outputFile
